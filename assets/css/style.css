@@ -391,7 +391,8 @@ width:50%;
   font-size:18px;
   margin: 0 auto;
   animation: fadeInRight 1s ease-in-out;
-  text-shadow: 2px 2px #43faa3;
+  text-shadow: 2px 2px #80fdbe;
+ 
 }
 @keyframes fadeInRight {
   from {
