@@ -655,6 +655,7 @@ footer ul li{
   width:40px;
   margin:0 auto;
   border-bottom: 0;
+
 }
 @media screen and (max-width: 414px){
   .second{
@@ -811,6 +812,13 @@ footer ul li{
 .list_1 ul:last-child{
   display:block;
   text-align:center;
+}
+.hati{
+  border-top: 5px dotted #10105f;
+  width:50px;
+  margin:0 auto;
+  border-bottom: 0;
+
 }
   
 }
