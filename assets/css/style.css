@@ -478,6 +478,7 @@ width:50%;
  border:2px solid #5f95a0;
  border-radius:5%;
  text-align:center;
+ box-shadow:5px 5px #80fdbe;
 }
 
 
@@ -488,6 +489,7 @@ width:50%;
   padding:2em 0 0 0;
   color: #5f95a0;
   font-size:42px;
+  text-shadow: 2px 2px 2px #1d7c8d;
 }
 .exp .max-width{
   margin-top:5em;
@@ -521,6 +523,7 @@ width:50%;
  background-color:#73a3ac;
  color:#f4f4f4;
  transition:0.3s ease-in-out;
+ box-shadow:5px 5px #80fdbe;
 }
 .exp ul li:hover{
   transform: scale(1.1);
@@ -560,6 +563,7 @@ width:50%;
  background-color:#73a3ac;
  color:#f4f4f4;
  transition:0.3s ease-in-out;
+ box-shadow:5px 5px #80fdbe;
 }
 .exp1 ul li:hover{
   transform: scale(1.1);
@@ -572,6 +576,7 @@ width:50%;
   text-align:center;
   color: #5f95a0;
   font-weight:600;
+  text-shadow: 2px 2px 2px #1d7c8d;
 }
 
 .edu .max-width{
@@ -622,6 +627,9 @@ width:50%;
   box-shadow: 5px 5px 10px 1px #b7cfd5;
 }
 /*project*/
+.co .title{
+  text-shadow: 2px 2px 2px #1d7c8d;
+}
 .co .max-width{
   margin:5em 0;
   width:auto;
@@ -662,6 +670,7 @@ footer ul li{
   list-style:none;
   display:flex;
   margin: 0 1em;
+  text-shadow:  1px 1px #80fdbe;
 }
 .hati{
   border-top: 12px dotted #10105f;
