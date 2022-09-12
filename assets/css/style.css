@@ -636,7 +636,7 @@ footer ul li{
   display:flex;
   margin: 0 1em;
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 414px){
   .second{
     width:100%;
   }
