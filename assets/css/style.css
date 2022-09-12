@@ -273,12 +273,13 @@ nav ul{
     animation: circleC 5s infinite;
     border-radius: 100%;
     z-index: 0;
+    
    
     } 
   .cir1{
     width: 5px;
     height: 5px;
-    background-color: #ff9900;
+    background-color: #43faa3;
     border-radius: 100%;
     animation: circleM 5s infinite;
     
@@ -292,6 +293,7 @@ nav ul{
     color:white;
     text-decoration:none;
 width:50%;
+
 
   }
   
@@ -335,7 +337,6 @@ width:50%;
 .list_2{
   width: 25%;
   text-align:end;
-
 }
 .list_1{
   width: 25%;
@@ -348,6 +349,9 @@ width:50%;
 /*ends of logo animated*/
 
 /*first */
+.container h2{
+  text-shadow: 2px 2px 2px #1d7c8d;
+}
 .first .max-width{
   width:auto;
   padding:2em 5em;
@@ -361,6 +365,7 @@ width:50%;
   font-size:82px;
   text-align:center;
   margin: 0 auto;
+  
 }
 .first h3{
   font-size:82px;
@@ -380,11 +385,13 @@ width:50%;
   justify-content:center;
   box-sizing:border-box;
   flex-wrap: wrap;
+  
 }
 .second h2{
   font-size:18px;
   margin: 0 auto;
   animation: fadeInRight 1s ease-in-out;
+  text-shadow: 2px 2px #43faa3;
 }
 @keyframes fadeInRight {
   from {
@@ -671,6 +678,9 @@ footer ul li{
   }
   .container h2, .container h3{
     font-size:42px;
+  }
+  .container h2{
+    text-shadow: 2px 2px 2px #1d7c8d;
   }
   .second .father{
     width:320px;
