@@ -6,6 +6,9 @@
 }
 
 /*logo animated*/
+.list_1 ul:last-child{
+  display:none;
+}
 
 nav .max-width{
   width:auto;
@@ -17,6 +20,7 @@ nav .max-width{
   margin-bottom:5em;
 }
 
+
 nav ul li{
   display:inline;
 }
@@ -24,6 +28,7 @@ nav ul li a{
   color:white;
   margin:0 auto;
   text-decoration:none;
+  
  
 }
 nav ul li a:hover{
@@ -31,8 +36,9 @@ nav ul li a:hover{
   transition: .8s ease-in-out;
 }
 nav ul{
-  text-align: center;
+  text-align: end;
   margin: 0 auto;
+  
   
 }
 /*navagation*/
@@ -278,10 +284,13 @@ nav ul{
   .logo{
     cursor: pointer;
     position: relative;
+    z-index:9999;
   }
   .logo h1 a{
     color:white;
     text-decoration:none;
+width:50%;
+
   }
   
 @keyframes circleM{
@@ -323,10 +332,13 @@ nav ul{
 }
 .list_2{
   width: 25%;
-  text-align: end;
+  text-align:end;
+
 }
 .list_1{
   width: 25%;
+  text-align:start;
+
 }
 .list_1 li{
   padding: .5em;
@@ -736,7 +748,8 @@ footer ul li{
     }
     footer ul:last-child{
      display:flex;
-    }  
+    } 
+
 }
 @media (max-width: 1920px) {
 
@@ -749,16 +762,16 @@ footer ul li{
   .menu-btn {
       display: block;
       z-index: 999;
-    
   }
+  
   .navbar .menu {
       position: fixed;
-      height: 80vh;
+      height: 100%;
       width: 100%;
       left: -100%;
       top: 0;
-      background: black;
-      opacity: 80%;
+      background: #050e7a;
+      opacity: 90%; 
       text-align: center;
       padding-top: 6em;
       transition: all 0.4s ease;
@@ -769,9 +782,7 @@ footer ul li{
   .navbar .menu li {
       display: block;
   }
-  .navbar .list_2{
-    padding-top:20em;
-  }
+ 
   .navbar .menu li a {
       display: inline-block;
       margin: 1.5rem;
@@ -780,5 +791,12 @@ footer ul li{
   .navbar .menu li a:hover {
       transform: scale(1.3);
   }
+.list_2{
+  display:none;
+}
+.list_1 ul:last-child{
+  display:block;
+  text-align:center;
+}
   
 }
