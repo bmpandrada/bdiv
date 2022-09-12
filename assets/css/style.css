@@ -590,8 +590,10 @@ width:50%;
   font-weight:600;
 }
 .father ul li{
-  font-size:.7em;
+  font-size:.8em;
   margin-left:2em;
+  letter-spacing:1.1px;
+  padding:.5em 0
 }
 .father ul{
   color:#41666d;
@@ -647,6 +649,12 @@ footer ul li{
   list-style:none;
   display:flex;
   margin: 0 1em;
+}
+.hati{
+  border-top: 12px dotted #10105f;
+  width:40px;
+  margin:0 auto;
+  border-bottom: 0;
 }
 @media screen and (max-width: 414px){
   .second{
@@ -728,6 +736,12 @@ footer ul li{
   width:100%;
   padding:1em 2.5em;
  }
+ .father ul li{
+  font-size:.7em;
+  margin-left:2em;
+  letter-spacing:1.1px;
+  padding:.5em 0
+}
  
 }
 @media screen and (max-width: 769px){
