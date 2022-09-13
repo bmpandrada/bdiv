@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Helvetica ;
+    font-family:Helvetica;
+
 }
+body{
+
+}
+
 
 /*logo animated*/
 .list_1 ul:last-child{
@@ -17,7 +22,7 @@ nav .max-width{
   align-items:center; 
   font-weight:600;
   background-color:#0f0637;
-  margin-bottom:5em;
+  /* margin-bottom:1em; */
 }
 
 
@@ -349,6 +354,18 @@ width:50%;
 /*ends of logo animated*/
 
 /*first */
+
+.the-first{
+  background:url('/assets/pics/dotted-pattern.png'); 
+  background-repeat:no-repeat;
+  background-position:top right;
+  background-size:200px;
+  width:auto;
+  padding-top:10em;
+  
+}
+
+
 .container h2{
   text-shadow: 2px 2px 2px #1d7c8d;
 }
@@ -360,12 +377,14 @@ width:50%;
   display:flex;
   align-items:center;
   justify-content:center;
+  
 }
 .first h2{
   font-size:82px;
   text-align:center;
   margin: 0 auto;
-  
+  font-weight:900;
+
 }
 .first h3{
   font-size:82px;
@@ -418,11 +437,21 @@ width:50%;
 .mother3{
   width:50%;
   text-align:center;
+  background:url('/assets/pics/dotted-pattern.png'); 
+  background-repeat:no-repeat;
+  background-position:top right;
+  background-size:210px;
  
 }
 .son1, .son2, .son3, .son4{
   width:100%;
   padding: 5em 0;
+}
+.second{
+  background:url('/assets/pics/dotted-pattern.png'); 
+  background-repeat:no-repeat;
+  background-position:bottom left;
+  background-size:250px;  
 }
 .mother p, .mother1 p{
   margin-bottom: 1em;
@@ -437,6 +466,8 @@ width:50%;
   border-radius:30% 70% 42% 58% / 56% 44% 56% 44%;
   overflow:hidden;
   animation: colorchange 12s infinite;
+
+  
 }
 
 
@@ -450,13 +481,19 @@ width:50%;
 }
 
 .hero .max-width{
-  margin-top:15em;
+  margin:1em 0;
   width:auto;
   padding:2em 5em;
   display:flex;
   align-items:start;
   justify-content:center;
   box-sizing:border-box;
+
+  background:url('/assets/pics/dotted-pattern.png'); 
+  background-repeat:no-repeat;
+  background-position:center top;
+  background-size:200px;  
+
 }
 .hero ul{
   display:flex;
@@ -479,14 +516,14 @@ width:50%;
  border-radius:5%;
  text-align:center;
  box-shadow:5px 5px #80fdbe;
+background-color:white;
 }
-
 
 
 /*exp*/
 .title{
   text-align:center;
-  padding:2em 0 0 0;
+  padding:1em 0 0 0;
   color: #5f95a0;
   font-size:42px;
   text-shadow: 2px 2px 2px #1d7c8d;
@@ -499,6 +536,10 @@ width:50%;
   align-items:start;
   justify-content:center;
   box-sizing:border-box;
+  background:url('/assets/pics/dotted-pattern.png'); 
+  background-repeat:no-repeat;
+  background-position:bottom right;
+  background-size:250px; 
 }
 .exp ul{
   display:flex;
@@ -517,10 +558,9 @@ width:50%;
  margin: 1em;
  width:auto;
  padding:.5em;
- border:2px solid #5f95a0;
  border-radius:5%;
  text-align:center;
- background-color:#73a3ac;
+ background-color:#050A30;
  color:#f4f4f4;
  transition:0.3s ease-in-out;
  box-shadow:5px 5px #80fdbe;
@@ -557,10 +597,9 @@ width:50%;
  margin: 1em;
  width:auto;
  padding:.5em;
- border:2px solid #5f95a0;
  border-radius:5%;
  text-align:center;
- background-color:#73a3ac;
+ background-color:#050A30;
  color:#f4f4f4;
  transition:0.3s ease-in-out;
  box-shadow:5px 5px #80fdbe;
@@ -584,17 +623,19 @@ width:50%;
   display:flex;
   justify-content:center;
   box-sizing:border-box;
-  flex-basis:1;
+  /* flex-basis:1; */
+  
   height:auto;
+  
 }
 
 /*father*/
 .father{
- 
+
 }
 .father, .sis{
 
-
+  
   margin: 0 1em;
   border-radius:3px;
   padding:1em;
@@ -625,6 +666,7 @@ width:50%;
 .sis{
   margin:1em;
   box-shadow: 5px 5px 10px 1px #b7cfd5;
+  background-color:white;
 }
 /*project*/
 .co .title{
@@ -697,6 +739,7 @@ footer ul li{
   }
   .second .father{
     width:320px;
+    margin: 0 auto;
   }
   
   .co .max-width{
@@ -728,6 +771,8 @@ footer ul li{
 }
 .hero .max-width{
   margin-top: 0;
+  background-size:150px;
+  background-position:right;
 }
 .hero ul li {
   width:100%;
@@ -738,14 +783,18 @@ footer ul li{
 .exp .max-width ul, .exp1 .max-width ul{
  display:inline;
  width:100%;
+ /* margin:0; */
+  
+}
+.exp .max-width{
+  background-size:150px; 
  
 }
 .co ul{
   display:inline;
   width:100%;
   margin: 0 auto;
-  text-align: center;
-  
+  text-align: center; 
  }
  .co ul li img{
   width:250px;
@@ -771,15 +820,30 @@ footer ul li{
 }
 .exp .max-width {
   display:flex;
-
 }
 .exp ul img{
   width:100px;
 }
 .father .sis{
   width:250px;
-}
 
+}
+.the-first, .mother3{
+  width:auto;
+  background-size:150px;
+  padding-top:1em;
+}
+.mother{
+  margin:0;
+  padding:0;
+}
+.second{
+  background-size:150px;  
+}
+.son1, .son2, .son3, .son4 {
+  width: 100%;
+  padding: 1em 0;
+}
 }
 @media screen and (max-width: 769px){
   .co ul li img{
@@ -800,6 +864,9 @@ footer ul li{
     footer ul:last-child{
      display:flex;
     } 
+    .second{
+      
+    }
 
 }
 @media (max-width: 1920px) {
