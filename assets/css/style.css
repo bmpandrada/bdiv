@@ -356,7 +356,7 @@ width:50%;
 /*first */
 
 .the-first{
-  background: url(dotted-pattern.png); 
+  background: url('/dotted-pattern.png'); 
   background-repeat:no-repeat;
   background-position:top right;
   background-size:200px;
