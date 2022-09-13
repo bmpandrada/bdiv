@@ -63,11 +63,13 @@ form >h1{
 }
 @media screen and (max-width: 600px){
   form{
-    width:300px;
+    width:auto;
     padding:1em;
 }
 .container{
   height:auto;
+  width:auto;
+  
 }
 }
 @media screen and (max-width: 769px){
