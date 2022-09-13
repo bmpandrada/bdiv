@@ -361,7 +361,7 @@ width:50%;
 /*first */
 
 .the-first{
-  background:url("../pics/dotted-pattern.png"); 
+  background:url("../pics/dotted-pattern.png");
   background-repeat:no-repeat;
   background-position:top right;
   background-size:200px;
@@ -445,7 +445,7 @@ width:50%;
 .mother3{
   width:50%;
   text-align:center;
-  background:url('/dotted-pattern.png'); 
+  background:url("../pics/dotted-pattern.png");
   background-repeat:no-repeat;
   background-position:top right;
   background-size:210px;
@@ -456,7 +456,7 @@ width:50%;
   padding: 5em 0;
 }
 .second{
-  background:url('/dotted-pattern.png'); 
+ background:url("../pics/dotted-pattern.png"); 
   background-repeat:no-repeat;
   background-position:bottom left;
   background-size:250px;  
@@ -497,7 +497,7 @@ width:50%;
   justify-content:center;
   box-sizing:border-box;
 
-  background:url('/dotted-pattern.png'); 
+  background:url("../pics/dotted-pattern.png");
   background-repeat:no-repeat;
   background-position:center top;
   background-size:200px;  
@@ -544,7 +544,7 @@ background-color:white;
   align-items:start;
   justify-content:center;
   box-sizing:border-box;
-  background:url('/dotted-pattern.png'); 
+  background:url("../pics/dotted-pattern.png");
   background-repeat:no-repeat;
   background-position:bottom right;
   background-size:250px; 
