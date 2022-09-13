@@ -33,7 +33,6 @@ input[type=submit]:hover {
   margin:0 auto;
   padding:2em;
   background-color:white;
-
 }
 form{
     width:500px;
@@ -83,4 +82,8 @@ form >h1{
 @media (max-width: 947px) {
  
   
+}
+.lot{
+  margin:0 auto;
+  padding:0;
 }
