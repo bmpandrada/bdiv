@@ -8,6 +8,10 @@
 body{
 
 }
+lottie-player{
+  margin-top:-15em;
+}
+
 
 
 /*logo animated*/
@@ -22,6 +26,7 @@ nav .max-width{
   align-items:center; 
   font-weight:600;
   background-color:#0f0637;
+ 
   /* margin-bottom:1em; */
 }
 
@@ -356,7 +361,7 @@ width:50%;
 /*first */
 
 .the-first{
-  background: url('/dotted-pattern.png'); 
+  background:url('/assets/pics/dotted-pattern.png'); 
   background-repeat:no-repeat;
   background-position:top right;
   background-size:200px;
@@ -368,6 +373,7 @@ width:50%;
 
 .container h2{
   text-shadow: 2px 2px 2px #1d7c8d;
+ 
 }
 .first .max-width{
   width:auto;
@@ -384,12 +390,14 @@ width:50%;
   text-align:center;
   margin: 0 auto;
   font-weight:900;
+  
 
 }
 .first h3{
   font-size:82px;
   text-align:center;
   margin: 0 auto;
+
 }
 .second p{
   text-shadow: 1px 1px #80fdbe;
@@ -540,10 +548,11 @@ background-color:white;
   background-repeat:no-repeat;
   background-position:bottom right;
   background-size:250px; 
+  
 }
 .exp ul{
   display:flex;
-  
+ 
 }
 .exp ul li img{
   opacity:0.8;
@@ -564,6 +573,7 @@ background-color:white;
  color:#f4f4f4;
  transition:0.3s ease-in-out;
  box-shadow:5px 5px #80fdbe;
+
 }
 .exp ul li:hover{
   transform: scale(1.1);
@@ -844,6 +854,7 @@ footer ul li{
   width: 100%;
   padding: 1em 0;
 }
+
 }
 @media screen and (max-width: 769px){
   .co ul li img{
@@ -888,6 +899,7 @@ footer ul li{
       width: 100%;
       left: -100%;
       top: 0;
+      z-index:9;
       background: #050e7a;
       opacity: 90%; 
       text-align: center;
