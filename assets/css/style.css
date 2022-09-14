@@ -381,7 +381,7 @@
     padding-top:5em; 
   }
   
-  .the-first .container span{
+  .the-first .first .max-width .container span{
     /* font-family: 'Inknut Antiqua', serif; */
     background: #031E3D;
     background: radial-gradient(circle farthest-corner at top center, #053266 0%, #A11D9C 100%);
@@ -396,11 +396,11 @@
   .first .max-width{
     width:auto;
     padding:2em 5em;
-    color:#5f95a0;
     height:auto;
     display:flex;
     align-items:center;
     justify-content:center;
+    
   }
   
   .first h2{
@@ -408,6 +408,9 @@
   text-align:center;
   margin: 0 auto;
   font-weight:600; 
+  
+  
+  
   }
   .first h3{
   font-size:82px;
@@ -794,7 +797,11 @@ background: linear-gradient(to left, #B320AD 0%, #053266 100%);
       font-size:42px;
     }
     .container h2{
-      text-shadow: 2px 2px 2px #1d7c8d;
+      background: #B320AD;
+    background: linear-gradient(to left, #B320AD 0%, #053266 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      
     }
     .second .father{
       width:320px;
@@ -928,9 +935,7 @@ background: linear-gradient(to left, #B320AD 0%, #053266 100%);
       footer ul:last-child{
        display:flex;
       } 
-      .second{
-        
-      }
+    
   
   }
   @media (max-width: 1920px) {
@@ -991,6 +996,7 @@ background: linear-gradient(to left, #B320AD 0%, #053266 100%);
     border-bottom: 0;
   
   }
+  
     
   }
   
