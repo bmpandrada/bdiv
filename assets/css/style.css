@@ -1,3 +1,6 @@
+/*@font-family:font-family: 'BioRhyme', serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;*/
+
 *{
     margin: 0;
     padding: 0;
@@ -374,7 +377,7 @@ width:50%;
 
 .container h2{
   text-shadow: 2px 2px 2px #1d7c8d;
- 
+ font-family:font-family: 'BioRhyme', serif;
 }
 .first .max-width{
   width:auto;
