@@ -1,4 +1,8 @@
-@font-family: 'BioRhyme', serif;
+@font-face {
+font-family: 'BioRhyme', serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700;800&family=Yanone+Kaffeesatz&display=swap');
+
 
 *{
     margin: 0;
