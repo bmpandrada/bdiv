@@ -546,10 +546,7 @@ background-color:white;
   align-items:start;
   justify-content:center;
   box-sizing:border-box;
-  background:url("../pics/dotted-pattern.png");
-  background-repeat:no-repeat;
-  background-position:bottom right;
-  background-size:250px; 
+
   
 }
 .exp ul{
@@ -583,6 +580,12 @@ background-color:white;
 }
 
 /*exp*/
+.exp-con{
+  background:url("../pics/dotted-pattern.png");
+  background-repeat:no-repeat;
+  background-position:bottom right;
+  background-size:250px; 
+}
 .exp1 .max-width{
   margin-bottom:5em;
   width:auto;
@@ -860,6 +863,7 @@ footer ul li{
   width:auto;
   justify-content: center;
   align-items:center;
+  background-size:150px;
 }
 }
 @media screen and (max-width: 769px){
