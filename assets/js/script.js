@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
     //THIS IS FOR INTRO CONTENT
-    const content = "Bruce Andrada";
+    const content = "Bruce Div";
     
     const ele = "<span>" + content.split("").join("</span><span>") + "</span>";
   
