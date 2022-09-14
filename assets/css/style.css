@@ -389,6 +389,10 @@ width:50%;
   display:flex;
   align-items:center;
   justify-content:center;
+     background: #121FCF;
+background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
   
 }
 .first h2{
@@ -397,10 +401,7 @@ width:50%;
   margin: 0 auto;
   font-weight:700;
   font-family: "BioRhyme";
-    background: #121FCF;
-background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+   
 
 
 }
