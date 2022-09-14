@@ -10,6 +10,7 @@ body{
 }
 lottie-player{
   margin-top:-15em;
+  opacity:0.2;
 }
 
 
@@ -529,9 +530,10 @@ background-color:white;
 
 
 /*exp*/
-.title{
+.title-exp, .title{
   text-align:center;
-  padding:1em 0 0 0;
+  padding:2.5em 0 0 0;
+ 
   color: #5f95a0;
   font-size:42px;
   text-shadow: 2px 2px 2px #1d7c8d;
@@ -828,15 +830,19 @@ footer ul li{
   letter-spacing:1.1px;
   padding:.5em 0
 }
-.exp .max-width {
-  display:flex;
-}
-.exp ul img{
+.exp .max-width, .exp1 .max-width {
   width:100px;
+  margin:0 auto;
+  display:inline;
+}
+.exp ul img, .exp1 ul img{
+  width:50px;
+  height:auto;
+  margin:0 auto;
+  padding:0;
 }
 .father .sis{
   width:250px;
-
 }
 .the-first, .mother3{
   width:auto;
@@ -854,7 +860,11 @@ footer ul li{
   width: 100%;
   padding: 1em 0;
 }
-
+.exp-con{
+  display:flex;
+  width:auto;
+  justify-content: center;
+}
 }
 @media screen and (max-width: 769px){
   .co ul li img{
