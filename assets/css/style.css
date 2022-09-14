@@ -414,10 +414,11 @@
   text-align:center;
   margin: 0 auto;
   
-  background: #121FCF;
-  background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: #B320AD;
+background: linear-gradient(to left, #B320AD 0%, #053266 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 
   }
   .second p{
