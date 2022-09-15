@@ -20,10 +20,10 @@ lottie-player{
 .lot1{
   margin: 0 auto;
   top: 100;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 40%;
+  transform: translate(-50%, -60%);
   position:absolute;
-  opacity:0.48;
+  opacity:0.5;
   z-index:-1;
 }
 /*logo animated*/
@@ -902,6 +902,12 @@ footer ul li{
   justify-content: center;
   align-items:center;
   background-size:150px;
+}
+.lot1{
+border:1px solid red;
+margin-top:-1em;
+
+
 }
 }
 @media screen and (max-width: 769px){
