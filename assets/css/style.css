@@ -17,7 +17,15 @@ lottie-player{
   margin-top:-15em;
   opacity:0.2;
 }
-
+.lot1{
+  margin: 0 auto;
+  top: 100;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position:absolute;
+  opacity:0.48;
+  z-index:-1;
+}
 /*logo animated*/
 .list_1 ul:last-child{
   display:none;
@@ -566,7 +574,7 @@ background-color:white;
 .title-exp, .title{
   text-align:center;
   padding:2.5em 0 0 0;
-  
+  position:relative;
   color: #5f95a0;
   font-size:42px;
   text-shadow: 2px 2px 2px #1d7c8d;
