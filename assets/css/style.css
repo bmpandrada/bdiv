@@ -17,6 +17,9 @@ lottie-player{
   margin-top:-15em;
   opacity:0.2;
 }
+
+
+
 .lot1{
   margin: 0 auto;
   top: 100;
@@ -520,7 +523,7 @@ background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
   border-radius:30% 70% 42% 58% / 56% 44% 56% 44%;
   overflow:hidden;
   animation: colorchange 12s infinite;
-
+  
   
 }
 
@@ -990,8 +993,9 @@ margin-top:-1em;
   display:none;
 }
 .list_1 ul:last-child{
-  display:block;
+  display:flex;
   text-align:center;
+  justify-content:center;
 }
 .hati{
   border-top: 5px dotted #10105f;
