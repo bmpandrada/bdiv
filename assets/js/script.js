@@ -101,8 +101,10 @@ window.addEventListener('scroll', function(){
 
     if (this.scrollY > 20) {
       $('.navbar').addClass("sticky");
+      $('nav .max-width').addClass("sticky");
   } else {
       $('.navbar').removeClass('sticky');
+      $('nav .max-width').removeClass('sticky');
   }
 
 
