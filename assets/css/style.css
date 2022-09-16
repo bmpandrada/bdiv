@@ -88,13 +88,18 @@ nav .max-width.sticky{
   display: block;
   width: 100%;
   height: 4px;
+  
+}
+.menu-btn.sticky{
+  margin: 1.5em 1.5em;
+  transition: .8s ease-in-out;
 }
 
 .menu-btn {
   cursor: pointer;
   width: 30px;
   height: 10px;
-  margin: 1.5em 1.5em;
+  margin: 2.5em 1.5em;
   position: absolute;
   right: 1.9em;
   top: 0;
