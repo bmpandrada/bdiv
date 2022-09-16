@@ -74,6 +74,11 @@ nav ul{
   z-index: 9999;
   width: 100%;
 }
+
+nav .max-width.sticky{
+  padding: 1em 5em;
+  transition: .8s ease-in-out;
+}
 /* menu button*/
 
 .menu-btn i.sticky {
@@ -89,7 +94,7 @@ nav ul{
   cursor: pointer;
   width: 30px;
   height: 10px;
-  margin: 2.5em 1.5em;
+  margin: 1.5em 1.5em;
   position: absolute;
   right: 1.9em;
   top: 0;
