@@ -12,10 +12,6 @@
 </head>
 <body>
     
-
-
-
-
 <nav class="navbar">
     <div class="max-width">
         <ul class="menu list_1">
@@ -47,28 +43,33 @@
 
 
 
-<div class="container">
-
-  <form action="/assets/php/contactform.php" method="post" >
+<div class="container1">
     
-    <h3>Contact Me. </h3> 
-<h1>Get in touch.</h1>    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player class="lot" src="https://assets2.lottiefiles.com/private_files/lf30_fjm22x0s.json"  background="transparent"  speed=".2"  style="width: 50px; height: 50px;"  loop  autoplay></lottie-player>
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-
-    <label for="lname">Email</label>
-    <input type="text" id="email" name="email" placeholder="Email Address.." required>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-  </form>
+    <form action="gmail.com" method="post" name="contactform">
+  
+        <p><label for="first">First Name *</label><br>
+        <input maxlength="50" name="first_name" id="first" size="30" type="text" required placeholder="First Name"  /></p>
+           
+        <p><label for="last">Last Name *</label><br>
+        <input maxlength="50" name="last_name"  id="last" size="30" type="text" required  placeholder="Last Name" /></p>
+          
+          
+        <p><label for="phone">Telephone *</label><br>
+        <input maxlength="30" name="telephone" id="phone" size="30" type="text" required  placeholder="&#215;&#215;&#215;-&#215;&#215;&#215;-&#215;&#215;&#215;&#215;" /></p>
+          
+          
+        <p><label for="emailadr">Email *</label><br>
+        <input maxlength="80" name="email" id="emailadr" size="30" type="email"required  placeholder="you@example.com" /></p>
+          
+        
+        <p><label for="msg">Message *</label><br>
+        <textarea cols="25" maxlength="1000" id="msg" name="comments" rows="6" required placeholder="Tell us more..." ></textarea></p>
+         
+        <small>* Required</small>
+        <p><input type="submit" value="Send Message" /></p>
+         
+        </form>
 </div>
 
 
