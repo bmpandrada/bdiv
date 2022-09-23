@@ -1,53 +1,20 @@
-<?php
-    
-    // Using $_POST function to send data 
-    
-    // isset() function used to check if submit button is clicked
-    
-    if (isset($_POST['submit'])) {
-    
-    // Grabbing elements by targeting 'name' attribute
-      $name = $_POST['name'];
-      $email = $_POST['emailAddress'];
-      $subject = $_POST['subject'];
-      $message = $_POST['message'];
-      $recipient = "bmpandrada@gmail.com";
-    
-    // using empty() function to check if fields are empty
-    
-      if (empty($name) || empty($email) || empty($subject) || empty($message)) {
-    // Changing URL 
-        //header("Location: index.php?form=empty");
-        echo "Please fill in any missing fields!";
-          } 
-    
-          else {
-    
-    // Checking if email is valid with filter_var() function 
-    // FILTER_VALIDATE_EMAIL used as parameter to check email validity
-    
-    if(!filter_var($email, FILTER_VALIDATE_EMAIL ))  {
-      //header("Location: index.php?invalidemail");
-      echo "Please enter a valid email address.";
+<?php 
+if(isset($_POST['submit'])){
+    $to = "bmpandrada@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    // You cannot use header and echo together. It's one or the other.
     }
-          // Send the email if no errors are found
-          else {
-    
-    // mail() function allows for the sending of emails
-    // Three parameters must be passed for the mail() function to work.
-    // 1. Email address of the recipient
-    // 2. The subject line of the email
-    // 3. The message
-    
-    mail($recipient, $subject, $message);
-    
-    
-    header("Location: index.php?mailsend");
-          }
-        }
-    
-    
-    
-    }
-    
-    ?>
+?>
